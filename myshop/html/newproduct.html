@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MyShop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<div class="header">
+		<h1>MyShop</h1>	
+</div>
+
+<div class="main">
+		
+		<div class="container">
+			<form name="registerForm" action="../php/newproduct.php" method="post">
+				<div class="row">
+					<div class="col-25">
+						<label for="fname">Name</label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="idname" name="name" placeholder="Your product..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="ltype">Type</label>
+					</div>
+					<div class="col-75">
+						<input type="type" id="idtype" name="type" placeholder="Type of product..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lprice">Price (RM)</label>
+					</div>
+					<div class="col-75">
+						<input type="price" id="idprice" name="price" placeholder="Your price..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lquantity">Quantity</label>
+					</div>
+					<div class="col-75">
+						<input type="quantity" id="idquantity" name="quantity" placeholder="Amount of quantity">
+					</div>
+				</div>
+				<div class="row">
+					<div><input type="submit" value="Submit"></div>
+				</div>
+				
+			</form>
+
+		</div>
+
+
+	</div>
+
+	
+
+</body>
+
+</html>

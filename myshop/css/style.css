@@ -1,0 +1,99 @@
+
+.header {
+    padding: 25px;
+    text-align: center;
+    background: #387D14;
+    color: white;
+}
+
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #588c7e;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: left;
+    }
+    
+    th {
+    background-color: #588c7e;
+    color: white;
+    }
+    tr:nth-child(even) {background-color: #f2f2f2}
+
+    input[type=text], input[type=tel], input[type=password], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+  }
+  
+  textarea {
+      max-width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+      background-color: #1abc9c;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+      width: 100%;
+  }
+  
+  button[type=submit] {
+      background-color: #1abc9c;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+  input[type=search] {
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+  }
+  
+  input[type=submit]:hover {
+      background-color: #1a977e;
+  }
+  
+  .col-25 {
+      float: left;
+      width: 30%;
+  }
+  
+  .col-75 {
+      float: left;
+      width: 70%;
+  }
